@@ -10,7 +10,7 @@ public class Vowel_Consonant {
 
     public void vowelConsonant() {
         Scanner numberInput = new Scanner(System.in);
-        System.out.println("Enter the Number to check even or odd");
+        System.out.println("Enter the character");
         String character = numberInput.next().toUpperCase(Locale.ROOT);//.charAt(0)
         if ((character.equals("A")) || (character.equals("E")) || (character.equals("I")) || (character.equals("O")) || (character.equals("U")))
             System.out.println("Entered character is a vowel");
